@@ -10,8 +10,8 @@ This is a vue select component.
 
 ## usage
 
-` <bio-select :selectedValue='selectedText' :selectedRealValue='selectedRealValue'  @select='select'>
-  <li v-for='option in options' :data-value='option.attrTypeEn'>{{option.attrTypeZh}}</li>
-</bio-select>`
+  <bio-select :selectedValue='selectedText' :selectedRealValue='selectedRealValue'  @select='select'>
+    <li v-for='option in options' :data-value='option.attrTypeEn'>{{option.attrTypeZh}}</li>
+  </bio-select>`
 
 
